@@ -6,16 +6,24 @@ export default {
   head: {
     title: 'Renko-2022',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pl'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'format-detection', content: 'telephone=no' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'keywords', name: 'keywords', content: '' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'googlebot', content: 'index, follow' },
+      { property: 'og:title', content: '' },
+      { property: 'og:url', content: '' },
+      { property: 'og:type', content: '' },
+      { property: 'og:description', content: '' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/favicon.ico' }
     ]
   },
 
