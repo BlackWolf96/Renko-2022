@@ -32,23 +32,30 @@ body{
   width: 100%;
   min-height: 500px;
   @media only screen and (max-width:600px){
+    align-items: center;
+    gap:10%;
     &__article{
       width: 80%;
       height:450px;
+      padding:15px;
       background-color: red; // to remove
     }
   }
   @media only screen and (max-width:1000px){
+    align-items: center;
+    gap:10%;
     &__article{
       width: 80%;
       height:450px;
       background-color: red; // to remove
     }
   }
-  @media only screen and (max-width:600px){
+  @media only screen and (min-width:1001px){
+    gap:10%;
     &__article{
-      width: 80%;
+      width: 50%;
       height:450px;
+      padding:15px; 
       background-color: red; // to remove
     }
   }
