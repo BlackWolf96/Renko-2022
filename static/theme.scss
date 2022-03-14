@@ -93,7 +93,7 @@ body{
   &__black{
     background-color: black;
     &--transparent{
-      opacity: 0.8;
+      background-color: rgba(0,0,0,0.7);
     }
   }
 }
