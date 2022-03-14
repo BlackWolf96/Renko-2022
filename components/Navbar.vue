@@ -1,5 +1,5 @@
 <template>
-  <header class="navigation flex">
+  <header class="navigation flex bg__black">
     <nav class="navigation__nav">
       <nuxt-link to="/" class="navigation__link">
         Home

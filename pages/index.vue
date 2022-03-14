@@ -38,9 +38,9 @@
     </section>
     <section class="flex container">
       <img src="https://www.renko.pl/_nuxt/img/renko3.45acdd1.webp" class="container__image">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
+      <div class="container_box bg_black--transparent">1</div>
+      <div class="container_box bg_black--transparent">2</div>
+      <div class="container_box bg_black--transparent">3</div>
     </section>
     <section class="flex">
 
