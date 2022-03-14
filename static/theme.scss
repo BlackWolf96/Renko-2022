@@ -93,7 +93,7 @@ body{
   min-height:500px;
 
   &__article{
-    padding:15%;
+    padding:15px;
     background-color: red;
   }
   &__box{
@@ -111,19 +111,7 @@ body{
     align-items: center;
   }
 
-  @media only screen and (max-width:600px){
-    gap:5%;
-  }
-  @media only screen and (max-width:1000px){
-    gap:5%;
-  }
-  @media only screen and (min-width:1001px){
-    gap:5%;
-    &__article{
-      width:50%;
-      height:500px;
-    }
-  }
+
 }
 .margin{
   &__top{
