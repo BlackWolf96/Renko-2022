@@ -38,9 +38,22 @@
     </section>
     <section class="flex container container--center margin__top--150">
       <img src="https://www.renko.pl/_nuxt/img/renko3.45acdd1.webp" class="container__image">
-      <div class="container__box bg__black--transparent">1</div>
-      <div class="container__box bg__black--transparent">2</div>
-      <div class="container__box bg__black--transparent">3</div>
+      <div class="container__box bg__black--transparent">
+        <b>Doractwo</b>
+        <p>
+          Potrzebujesz pomocy przy wyborze oferty? Skontaktuj się z nami! Chętnie odpowiemy na wszystkie Twoje pytania i pomożemy wybrać ofertę dopasowaną do Twoich potrzeb.
+        </p>
+      </div>
+      <div class="container__box bg__black--transparent">
+        <b>Obsługa</b>
+        <p>Nasi specjaliści odpowiedzą na wszystkie Twoje pytania i dobiorą rozwiązania dopasowane stosownie do Twoich potrzeb.</p>
+      </div>
+      <div class="container__box bg__black--transparent">
+        <b>Serwis</b>
+        <p>
+          Nasza firma oferuje aż 5 lat gwarancji. W przypadku problemów z oknem skontaktuj się z nami drogą telefoniczną lub mailową.
+        </p>
+      </div>
     </section>
     <section class="flex">
 
