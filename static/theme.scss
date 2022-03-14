@@ -31,62 +31,6 @@ body{
 }
 // End: Nav
 // Start: containers
-/*
-.container{
-  width: 100%;
-  min-height: 500px;
-  @media only screen and (max-width:600px){
-    align-items: center;
-    gap:10%;
-    &__article{
-      width: 80%;
-      padding:15px;
-      background-color: red; // to remove
-    }
-    &__box{
-      width:80%;
-      height: 100px;
-      padding:15px;
-    }
-  }
-  @media only screen and (max-width:1000px){
-    align-items: center;
-    gap:10%;
-    &__article{
-      width: 80%;
-      background-color: red; // to remove
-    }
-    &__box{
-      width:80%;
-      height: 250px;
-      padding:15px;
-    }
-  }
-  @media only screen and (min-width:1001px){
-    gap:10%;
-    &__article{
-      width: 50%;
-      padding:15px; 
-      background-color: red; // to remove
-    }
-    &__box{
-      width:80%;
-      height: 250px;
-      padding:15px;
-      align-items: center;
-    }
-  }
-  &__image{
-    width: 100%;
-    height:750px;
-    position:absolute;
-    z-index: -1;
-  }
-  &--center{
-    justify-content: center;
-    align-items: center;
-  }
-}*/
 // End: containers
 .container{
   width:100%;
@@ -111,7 +55,9 @@ body{
     align-items: center;
   }
 
-
+  @media only screen and (min-width:){
+    
+  }
 }
 .margin{
   &__top{
