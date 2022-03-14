@@ -39,7 +39,7 @@
     <section class="flex container margin__top--150">
       <img src="https://www.renko.pl/_nuxt/img/renko3.45acdd1.webp" class="container__image">
       <div class="container__box bg__black--transparent">1</div>
-      <div class="container_box bg__black--transparent">2</div>
+      <div class="container__box bg__black--transparent">2</div>
       <div class="container__box bg__black--transparent">3</div>
     </section>
     <section class="flex">
