@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Navbar />
     <section class="flex"></section>
     <section class="flex"></section>
     <section class="flex"></section>
