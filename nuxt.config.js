@@ -16,9 +16,9 @@ export default {
       { hid: 'keywords', name: 'keywords', content: '' },
       { name: 'robots', content: 'index, follow' },
       { name: 'googlebot', content: 'index, follow' },
-      { property: 'og:title', content: '' },
-      { property: 'og:url', content: '' },
-      { property: 'og:type', content: '' },
+      { property: 'og:title', content: 'Montaż okien - Renko' },
+      { property: 'og:url', content: 'https://renko.pl' },
+      { property: 'og:type', content: 'website' },
       { property: 'og:description', content: '' },
     ],
     link: [
