@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <section class="flex container">
+    <section class="flex container margin__top--150">
       <article class="container__article">
         <h2>
           W naszej ofercie znajdziecie Państwo:
@@ -36,11 +36,11 @@
         <p>Warstwa zewnętrzna chroni izolację przed wilgocią z zewnątrz. Warstwa środkowa służąca jako izolacja termiczna wykonana jest z poliuretanowej piany, która szczelnie wypełnia przestrzń pomiędzy ramą okna a ścianą. Warstwa wewnętrzna chroni przed wnikaniem pary wodnej zbierającej się w pomieszczeniach w izolacje.</p>
       </article>
     </section>
-    <section class="flex container">
+    <section class="flex container margin__top--150">
       <img src="https://www.renko.pl/_nuxt/img/renko3.45acdd1.webp" class="container__image">
-      <div class="container_box bg_black--transparent">1</div>
-      <div class="container_box bg_black--transparent">2</div>
-      <div class="container_box bg_black--transparent">3</div>
+      <div class="container__box bg__black--transparent">1</div>
+      <div class="container_box bg__black--transparent">2</div>
+      <div class="container__box bg__black--transparent">3</div>
     </section>
     <section class="flex">
 

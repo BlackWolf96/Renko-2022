@@ -66,3 +66,18 @@ body{
     z-index: -1;
   }
 }
+.margin{
+  &__top{
+    &--150{
+      margin-top:150px;
+    }
+  }
+}
+.bg{
+  &__black{
+    background-color: black;
+    &--transparent{
+      opacity: 0.7;
+    }
+  }
+}
