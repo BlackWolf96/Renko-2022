@@ -1,30 +1,30 @@
-body{
-  margin:0;
-  padding:0;
-  font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
-.flex{
+.flex {
   display: flex;
-  @media only screen and (max-width:600px){
+  @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
-  @media only screen and (max-width:1000px){
+  @media only screen and (max-width: 1000px) {
     flex-direction: column;
   }
-  @media only screen and (min-width:1001px){
+  @media only screen and (min-width: 1001px) {
     flex-direction: row;
   }
 }
 // Start: Nav
-.navigation{
-  width:100%;
-  height:10em;
-  &__nav{
-    position:absolute;
-    right:20px;
-    line-height:10em;
+.navigation {
+  width: 100%;
+  height: 10em;
+  &__nav {
+    position: absolute;
+    right: 20px;
+    line-height: 10em;
   }
-  &__link{
+  &__link {
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -32,80 +32,80 @@ body{
 // End: Nav
 // Start: containers
 // End: containers
-.container{
-  width:100%;
-  min-height:500px;
-  display:flex;
-  &__article{
+.container {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  &__article {
     text-align: justify;
-    div{
+    div {
       padding: 15px;
     }
   }
-  @media screen and (max-width:1000px) {
+  @media screen and (max-width: 1000px) {
     flex-direction: column;
-    gap:50px;
-    &__article{
-      width:100%;
+    gap: 50px;
+    &__article {
+      width: 100%;
     }
   }
-  @media screen and (min-width:1000px) {
+  @media screen and (min-width: 1000px) {
     flex-direction: row;
-    gap:5%;
-    &__article{
-      width:50%;
+    gap: 5%;
+    &__article {
+      width: 50%;
     }
   }
 
-  &__box{
-    width:100%;
+  &__box {
+    width: 100%;
     height: 200px;
-    background-color: rgba(0,0,0,0.7);
-    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
     padding: 15px;
 
     flex-direction: column;
   }
-  @media screen and (max-width:600px) {
-    &__box{
-      width:100%;
+  @media screen and (max-width: 600px) {
+    &__box {
+      width: 100%;
     }
   }
-  @media screen and (max-width:1000px) {
-    &__box{
-      width:40%;
+  @media screen and (max-width: 1000px) {
+    &__box {
+      width: 40%;
     }
   }
-  @media screen and (min-width:1001px) {
+  @media screen and (min-width: 1001px) {
     flex-direction: row;
-    &__box{
-      width:30%;
+    &__box {
+      width: 30%;
     }
   }
 
-  &__image{
+  &__image {
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 750px;
   }
-  &--center{
+  &--center {
     justify-content: center;
     align-items: center;
   }
 }
-.margin{
-  &__top{
-    &--150{
-      margin-top:150px;
+.margin {
+  &__top {
+    &--150 {
+      margin-top: 150px;
     }
   }
 }
-.bg{
-  &__black{
+.bg {
+  &__black {
     background-color: black;
-    &--transparent{
-      background-color: rgba(0,0,0,0.7);
+    &--transparent {
+      background-color: rgba(0, 0, 0, 0.7);
     }
   }
 }
