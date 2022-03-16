@@ -65,6 +65,16 @@ body{
         width:100%;
       }
     }
+    @media screen and (max-width:1000px) {
+      &__box{
+        width:100%;
+      }
+    }
+    @media screen and (min-width:1001px) {
+      &__box{
+        width:100%;
+      }
+    }
   }
   &__image{
     position: absolute;
