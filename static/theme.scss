@@ -60,6 +60,21 @@ body{
     background-color: rgba(0,0,0,0.7);
     color:white;
     padding: 15px;
+    @media screen and (max-width:600px) {
+      &__box{
+        width:100%;
+      }
+    }
+    @media screen and (max-width:1000px) {
+      &__box{
+        width:100%;
+      }
+    }
+    @media screen and (min-width:1000px) {
+      &__box{
+        width:100%;
+      }
+    }
   }
   &__image{
     position: absolute;
