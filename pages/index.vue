@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <section class="flex container margin__top--150">
+    <section class="container margin__top--150">
       <article class="container__article">
         <h2>
           W naszej ofercie znajdziecie Państwo:
