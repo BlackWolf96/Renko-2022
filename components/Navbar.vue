@@ -1,12 +1,18 @@
 <template>
-  <header class="navigation flex bg__black">
-    <nav class="navigation__nav">
-      <nuxt-link to="/" class="navigation__link">
-        Home
-      </nuxt-link>
-      <nuxt-link to="/" class="navigation__link">
-        Kontakt
-      </nuxt-link>
+  <header class="navbar flex bg__black">
+    <nav class="navbar__nav">
+      <ul class="navbar__nav__menu">
+        <li class="navbar__nav__menu__item">
+          <nuxt-link to="/" class="navigation__link">
+            Home
+          </nuxt-link>
+        </li>
+        <li class="navbar__nav__menu__item">
+          <nuxt-link to="/" class="navigation__link">
+            Kontakt
+          </nuxt-link>
+        </li>
+      </ul>
     </nav>
   </header>
 </template>
