@@ -31,7 +31,15 @@ body {
     }
   }
 }
-
+@media screen and (min-width:1001px) {
+  .navbar{
+    &__nav{
+      &__menu{
+        flex-direction: row;
+      }
+    }
+  }
+}
 .container {
   width: 100%;
   min-height: 500px;
