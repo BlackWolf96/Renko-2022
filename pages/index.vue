@@ -36,7 +36,7 @@
         <p>Warstwa zewnętrzna chroni izolację przed wilgocią z zewnątrz. Warstwa środkowa służąca jako izolacja termiczna wykonana jest z poliuretanowej piany, która szczelnie wypełnia przestrzń pomiędzy ramą okna a ścianą. Warstwa wewnętrzna chroni przed wnikaniem pary wodnej zbierającej się w pomieszczeniach w izolacje.</p>
       </article>
     </section>
-    <section class="container container--center margin__top--200">
+    <section class="container container--center">
       <img src="https://www.renko.pl/_nuxt/img/renko3.45acdd1.webp" class="container__image">
       <div class="container__box bg__black--transparent">
         <b>Doractwo</b>
