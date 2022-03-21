@@ -16,7 +16,7 @@ body {
       padding:0;
       display:flex;
       flex-direction: column;
-
+      gap:10px;
       &__item{
         text-transform: uppercase;
         text-align:center;

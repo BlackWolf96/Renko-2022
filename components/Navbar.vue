@@ -3,12 +3,12 @@
     <nav class="navbar__nav">
       <ul class="navbar__nav__menu">
         <li class="navbar__nav__menu__item">
-          <nuxt-link to="/" class="navigation__link">
+          <nuxt-link to="/" class="navbar__nav__menu__item__link">
             Home
           </nuxt-link>
         </li>
         <li class="navbar__nav__menu__item">
-          <nuxt-link to="/" class="navigation__link">
+          <nuxt-link to="/" class="navbar__nav__menu__item__link">
             Kontakt
           </nuxt-link>
         </li>
