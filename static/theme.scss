@@ -8,12 +8,9 @@ body {
   height:10em;
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: black;
   &__nav{
-    display:flex;
-    align-items: center;
-    justify-content: center;
     &__menu{
       margin:0;
       padding:0;
@@ -23,7 +20,7 @@ body {
       &__item{
         text-transform: uppercase;
         text-align:center;
-        a{
+        &__link{
           text-decoration: none;
           color:white;
         }
