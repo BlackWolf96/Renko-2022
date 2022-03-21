@@ -8,7 +8,7 @@ body {
   height:10em;
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: black;
   &__nav{
     &__menu{
@@ -30,7 +30,7 @@ body {
 }
 @media screen and (min-width:1001px) {
   .navbar{
-    justify-content: flex-end;    
+      
     &__nav{
       &__menu{
         flex-direction: row;
@@ -102,4 +102,24 @@ body {
     height: 850px;
   }
 
+}
+
+
+.margin {
+  &__top {
+    &--150 {
+      margin-top: 150px;
+    }
+    &--200 {
+      margin-top: 200px;
+    }
+  }
+}
+.bg {
+  &__black {
+    background-color: black;
+    &--transparent {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
 }
