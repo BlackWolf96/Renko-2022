@@ -1,5 +1,6 @@
 <template>
   <header class="navbar flex bg__black">
+    <img src="~/static/menu.png">
     <nav class="navbar__nav">
       <ul class="navbar__nav__menu">
         <li class="navbar__nav__menu__item">
