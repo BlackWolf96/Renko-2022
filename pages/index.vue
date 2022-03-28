@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <section class="container margin__top--150">
-      <article class="container__article">
+      <article class="container__article container--small">
         <h2>
           W naszej ofercie znajdziecie Państwo:
         </h2>
@@ -17,7 +17,7 @@
           <li>Montaż systemów Ppoż</li>
         </ul>
       </article>
-      <article class="container__article">
+      <article class="container__article container--small">
         <h2>
           Rodzaje montażu:
         </h2>

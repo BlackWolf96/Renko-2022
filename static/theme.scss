@@ -43,6 +43,16 @@ body {
   min-height: 500px;
   width:100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &--small{
+    width:90%;
+  }
+  &__article{
+
+  }
 }
 /*
 .container {
