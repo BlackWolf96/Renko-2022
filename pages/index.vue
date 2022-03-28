@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <section class="container margin__top--150">
+    <section class="container">
       <article class="container__article container--small">
         <h2>
           W naszej ofercie znajdziecie Państwo:

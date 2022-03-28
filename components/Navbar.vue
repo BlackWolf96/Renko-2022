@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar flex bg__black">
+  <header class="navbar">
     <nav class="navbar__nav">
       <ul class="navbar__nav__menu">
         <li class="navbar__nav__menu__item">
