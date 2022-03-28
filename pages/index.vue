@@ -36,19 +36,19 @@
         <p>Warstwa zewnętrzna chroni izolację przed wilgocią z zewnątrz. Warstwa środkowa służąca jako izolacja termiczna wykonana jest z poliuretanowej piany, która szczelnie wypełnia przestrzń pomiędzy ramą okna a ścianą. Warstwa wewnętrzna chroni przed wnikaniem pary wodnej zbierającej się w pomieszczeniach w izolacje.</p>
       </article>
     </section>
-    <section class="container container--center">
+    <section class="container">
       <img src="https://www.renko.pl/_nuxt/img/renko3.45acdd1.webp" class="container__image">
-      <div class="container__box bg__black--transparent">
+      <div class="container__box">
         <b>Doractwo</b>
         <p>
           Potrzebujesz pomocy przy wyborze oferty? Skontaktuj się z nami! Chętnie odpowiemy na wszystkie Twoje pytania i pomożemy wybrać ofertę dopasowaną do Twoich potrzeb.
         </p>
       </div>
-      <div class="container__box bg__black--transparent">
+      <div class="container__box">
         <b>Obsługa</b>
         <p>Nasi specjaliści odpowiedzą na wszystkie Twoje pytania i dobiorą rozwiązania dopasowane stosownie do Twoich potrzeb.</p>
       </div>
-      <div class="container__box bg__black--transparent">
+      <div class="container__box">
         <b>Serwis</b>
         <p>
           Nasza firma oferuje aż 5 lat gwarancji. W przypadku problemów z oknem skontaktuj się z nami drogą telefoniczną lub mailową.
