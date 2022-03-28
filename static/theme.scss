@@ -37,6 +37,13 @@ body {
     }
   }
 }
+// Container Mobile First 
+.container{
+  margin-top:100px;
+  min-height: 500px;
+  width:100%;
+  display: flex;
+}
 /*
 .container {
   width: 100%;
