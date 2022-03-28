@@ -9,7 +9,7 @@
         </li>
         <li class="navbar__nav__menu__item">
           <nuxt-link to="/" class="navbar__nav__menu__item__link">
-            Kontakt
+            Kontakta
           </nuxt-link>
         </li>
       </ul>
