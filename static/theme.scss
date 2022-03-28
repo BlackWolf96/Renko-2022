@@ -39,7 +39,7 @@ body {
 }
 // Container Mobile First 
 .container{
-  margin-top:100px;
+  margin-top: 200px;
   min-height: 500px;
   width:100%;
   display: flex;
@@ -63,11 +63,7 @@ body {
     height:850px;
   }
 }
-@media screen and (min-width: 1000px) {
-  .container{
-    flex-direction: row;
-  }  
-}
+
 /*
 .container {
   width: 100%;
