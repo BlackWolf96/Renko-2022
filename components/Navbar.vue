@@ -1,14 +1,14 @@
 <template>
   <header class="navbar">
-    <nav class="navbar__nav">
-      <ul class="navbar__nav__menu">
-        <li class="navbar__nav__menu__item">
-          <nuxt-link to="/" class="navbar__nav__menu__item__link">
+    <nav class="navbar_nav">
+      <ul class="navbar_nav_menu">
+        <li class="navbar_nav_menu_item">
+          <nuxt-link to="/" class="navbar_nav_menu_item_link">
             Home
           </nuxt-link>
         </li>
-        <li class="navbar__nav__menu__item">
-          <nuxt-link to="/" class="navbar__nav__menu__item__link">
+        <li class="navbar_nav_menu_item">
+          <nuxt-link to="/" class="navbar_nav__menu_item_link">
             Kontakta
           </nuxt-link>
         </li>
