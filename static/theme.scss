@@ -8,7 +8,17 @@ body {
   height:10em;
   background: black;
   position:sticky;
-  
+  top:0;
+  &__nav{
+    
+    &__menu{
+      &__item{
+        &__link{
+          
+        }
+      }
+    }
+  }
 }
 /*
 .navbar{
