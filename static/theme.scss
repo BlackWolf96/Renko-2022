@@ -9,7 +9,10 @@ body {
   background: black;
   position:sticky;
   top:0;
-  
+  &_nav{
+    animation: FadeIn 2s forwards;
+    &_menu{}
+  }
 }
 /*
 .navbar{
