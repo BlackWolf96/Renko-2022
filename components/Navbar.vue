@@ -8,7 +8,7 @@
           </nuxt-link>
         </li>
         <li class="navbar_nav_menu_item">
-          <nuxt-link to="/" class="navbar_nav__menu_item_link">
+          <nuxt-link to="/" class="navbar_nav_menu_item_link">
             Kontakta
           </nuxt-link>
         </li>
