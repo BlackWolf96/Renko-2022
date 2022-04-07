@@ -11,7 +11,13 @@ body {
   top:0;
   &_nav{
     animation: FadeIn 2s forwards;
-    &_menu{}
+    &_menu{
+      display:flex;
+      list-style-type: none;
+      flex-direction: column;
+      margin:0;
+      padding:0;
+    }
   }
 }
 /*
