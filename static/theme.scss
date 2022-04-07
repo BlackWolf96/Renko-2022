@@ -33,6 +33,16 @@ body {
     }
   }
 }
+@media screen (max-width:600px) {
+  .navbar{
+    &_nav{
+      &_menu{
+        flex-direction: row;
+        
+      }
+    }
+  }
+}
 /*
 .navbar{
   width:100%;
