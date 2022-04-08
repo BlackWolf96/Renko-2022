@@ -14,10 +14,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow:1px 2px 2px grey;
   &_nav{
+    
     animation: FadeIn 2s forwards;
     &_menu{
+      
       list-style-type: none;
       display:flex;
       flex-direction: column;
@@ -29,16 +30,6 @@ body {
           color:white;
           font-size:1rem;
         }
-      }
-    }
-  }
-}
-@media screen and (min-width:600px){
-  .navbar{
-    justify-content: right;
-    &_nav{
-      &_menu{
-        flex-direction: row;
       }
     }
   }
